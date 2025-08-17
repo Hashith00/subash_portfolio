@@ -1,0 +1,115 @@
+{
+  "personalInfo": {
+    "name": "Your Name",
+    "title": "Mechanical Engineer",
+    "tagline": "Innovative engineering for tomorrow's solutions",
+    "description": "Mechanical engineer specializing in product design, automation, and manufacturing optimization. Creating efficient, practical solutions for complex engineering challenges.",
+    "email": "hello@example.com",
+    "phone": "+1 (555) 123-4567",
+    "location": "San Francisco, CA",
+    "availability": "Available for work",
+    "cvFile": "/cv.pdf"
+  },
+  "navigation": {
+    "brand": "Portfolio",
+    "items": [
+      { "name": "Home", "href": "/" },
+      { "name": "Experience", "href": "/experience" },
+      { "name": "Education", "href": "/education" },
+      { "name": "Projects", "href": "/projects" },
+      { "name": "Contact", "href": "/contact" }
+    ]
+  },
+  "socialLinks": [
+    {
+      "name": "GitHub",
+      "icon": "Github",
+      "url": "https://github.com",
+      "color": "hover:text-gray-400"
+    },
+    {
+      "name": "LinkedIn",
+      "icon": "Linkedin",
+      "url": "https://linkedin.com",
+      "color": "hover:text-blue-400"
+    },
+    {
+      "name": "Twitter",
+      "icon": "Twitter",
+      "url": "https://twitter.com",
+      "color": "hover:text-blue-400"
+    },
+    {
+      "name": "Email",
+      "icon": "Mail",
+      "url": "mailto:hello@example.com",
+      "color": "hover:text-primary"
+    }
+  ],
+  "skills": {
+    "technologies": ["SolidWorks", "AutoCAD", "ANSYS", "MATLAB", "3D Printing"],
+    "specialties": [
+      {
+        "name": "Product Design",
+        "color": "bg-primary"
+      },
+      {
+        "name": "CAD Modeling",
+        "color": "bg-accent"
+      },
+      {
+        "name": "Process Optimization",
+        "color": "bg-primary"
+      }
+    ]
+  },
+  "about": {
+    "journey": {
+      "title": "My Journey",
+      "paragraphs": [
+        "With over 5 years of experience in mechanical engineering, I've had the privilege of working with manufacturing companies and startups to bring their innovative products to life. My journey started with a mechanical engineering degree and has evolved through continuous learning and hands-on experience.",
+        "I specialize in CAD design, automation systems, and manufacturing optimization, always staying up-to-date with the latest technologies and industry best practices. My approach combines technical expertise with creative problem-solving to deliver engineering solutions that truly make a difference."
+      ]
+    },
+    "highlights": [
+      {
+        "icon": "Settings",
+        "title": "Precision Engineering",
+        "description": "Designing accurate, reliable mechanical systems with attention to detail"
+      },
+      {
+        "icon": "Lightbulb",
+        "title": "Innovation Focus",
+        "description": "Creating innovative solutions that push the boundaries of engineering"
+      },
+      {
+        "icon": "Zap",
+        "title": "Efficiency",
+        "description": "Optimizing processes and designs for maximum performance and cost-effectiveness"
+      },
+      {
+        "icon": "Heart",
+        "title": "Passion",
+        "description": "Loving what I do and bringing enthusiasm to every engineering challenge"
+      }
+    ],
+    "hobbies": [
+      {
+        "icon": "Printer",
+        "name": "3D Printing Projects"
+      },
+      {
+        "icon": "Car",
+        "name": "Automotive Tinkering"
+      },
+      {
+        "icon": "Footprints",
+        "name": "Running"
+      },
+      {
+        "icon": "BookOpen",
+        "name": "Reading Engineering Journals"
+      }
+    ]
+  }
+}

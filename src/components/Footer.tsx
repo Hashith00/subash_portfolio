@@ -1,7 +1,10 @@
 import { Github, Linkedin, Mail, Heart } from "lucide-react";
+import { Link } from "react-router-dom";
+import { personalData } from "@/data";
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
+  const { navigation } = personalData;
 
   return (
     <footer className="border-t border-border py-12 px-6">
@@ -22,36 +25,15 @@ const Footer = () => {
           <div>
             <h4 className="font-semibold mb-4">Quick Links</h4>
             <nav className="space-y-2">
-              <a
-                href="#about"
-                className="block text-muted-foreground hover:text-foreground transition-colors text-sm"
-              >
-                About
-              </a>
-              <a
-                href="#portfolio"
-                className="block text-muted-foreground hover:text-foreground transition-colors text-sm"
-              >
-                Portfolio
-              </a>
-              <a
-                href="#skills"
-                className="block text-muted-foreground hover:text-foreground transition-colors text-sm"
-              >
-                Skills
-              </a>
-              <a
-                href="#experience"
-                className="block text-muted-foreground hover:text-foreground transition-colors text-sm"
-              >
-                Experience
-              </a>
-              <a
-                href="#contact"
-                className="block text-muted-foreground hover:text-foreground transition-colors text-sm"
-              >
-                Contact
-              </a>
+              {navigation.items.map((item) => (
+                <Link
+                  key={item.name}
+                  to={item.href}
+                  className="block text-muted-foreground hover:text-foreground transition-colors text-sm"
+                >
+                  {item.name}
+                </Link>
+              ))}
             </nav>
           </div>
 

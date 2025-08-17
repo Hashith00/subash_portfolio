@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { ArrowDown, Github, Linkedin, Mail } from "lucide-react";
+import { Link } from "react-router-dom";
 
 const Hero = () => {
   return (
@@ -44,16 +45,20 @@ const Hero = () => {
 
         {/* CTA Buttons */}
         <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
-          <Button
-            size="lg"
-            className="gradient-button border-0 text-background font-medium text-lg px-8 py-6"
-          >
-            View My Work
-          </Button>
-          <Button variant="outline" size="lg" className="text-lg px-8 py-6">
-            <Mail className="mr-2 h-5 w-5" />
-            Get In Touch
-          </Button>
+          <Link to="/projects">
+            <Button
+              size="lg"
+              className="gradient-button border-0 text-background font-medium text-lg px-8 py-6"
+            >
+              View My Work
+            </Button>
+          </Link>
+          <Link to="/contact">
+            <Button variant="outline" size="lg" className="text-lg px-8 py-6">
+              <Mail className="mr-2 h-5 w-5" />
+              Get In Touch
+            </Button>
+          </Link>
         </div>
 
         {/* Social Links */}

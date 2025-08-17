@@ -1,0 +1,207 @@
+{
+  "projects": [
+    {
+      "id": "automated-assembly-line",
+      "title": "Automated Assembly Line",
+      "description": "Designed and implemented a fully automated assembly system that increased production efficiency by 40%. Integrated sensors, PLCs, and robotic arms for seamless operation with quality control systems.",
+      "detailedDescription": "This project involved designing and implementing a state-of-the-art automated assembly line for automotive components. The system integrated advanced sensors, programmable logic controllers (PLCs), and robotic arms to create a seamless manufacturing process. The implementation resulted in a 40% increase in production efficiency while maintaining stringent quality control standards. The project required extensive collaboration with cross-functional teams and careful consideration of safety protocols, ergonomics, and maintenance requirements.",
+      "technologies": [
+        "SolidWorks",
+        "PLC Programming",
+        "HMI Design",
+        "AutoCAD",
+        "Robotics",
+        "SCADA Systems",
+        "Industrial Ethernet"
+      ],
+      "images": [
+        {
+          "url": "https://images.unsplash.com/photo-1581092918484-8313de0720c8?w=800&h=600&fit=crop",
+          "alt": "Automated assembly line overview",
+          "caption": "Complete assembly line system overview"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1581092334651-ddf26d9a09d0?w=800&h=600&fit=crop",
+          "alt": "Robotic arm in action",
+          "caption": "Precision robotic arm assembly process"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1581092160562-40aa08e78837?w=800&h=600&fit=crop",
+          "alt": "Control panel interface",
+          "caption": "HMI control panel for system monitoring"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1581092795442-31d5f6e5a70a?w=800&h=600&fit=crop",
+          "alt": "Quality control station",
+          "caption": "Integrated quality control and testing station"
+        }
+      ],
+      "demoUrl": "https://example.com/demo",
+      "githubUrl": "https://github.com/example",
+      "featured": true,
+      "duration": "8 months",
+      "teamSize": "6 engineers",
+      "impact": "40% efficiency increase",
+      "challenges": [
+        "Integration of legacy systems with new automation",
+        "Ensuring zero downtime during implementation",
+        "Meeting strict automotive industry quality standards",
+        "Coordinating with multiple vendor systems"
+      ],
+      "solutions": [
+        "Developed modular implementation approach for gradual rollout",
+        "Created comprehensive testing protocols and simulation models",
+        "Implemented redundant safety systems and backup processes",
+        "Established standardized communication protocols between systems"
+      ]
+    },
+    {
+      "id": "hvac-system-optimization",
+      "title": "HVAC System Optimization",
+      "description": "Redesigned commercial HVAC system resulting in 30% energy savings. Utilized CFD analysis and thermodynamic modeling for optimal performance and sustainability.",
+      "detailedDescription": "This comprehensive HVAC optimization project focused on redesigning the climate control systems for a large commercial building complex. Using advanced computational fluid dynamics (CFD) analysis and thermodynamic modeling, we were able to optimize airflow patterns, reduce energy consumption by 30%, and improve overall occupant comfort. The project incorporated sustainable design principles and smart control systems to create an intelligent, adaptive HVAC solution.",
+      "technologies": [
+        "ANSYS Fluent",
+        "MATLAB",
+        "Energy Modeling",
+        "BIM",
+        "Thermodynamics",
+        "CFD Analysis",
+        "IoT Sensors"
+      ],
+      "images": [
+        {
+          "url": "https://images.unsplash.com/photo-1621905251189-08b45d6a269e?w=800&h=600&fit=crop",
+          "alt": "HVAC system design",
+          "caption": "3D model of optimized HVAC system layout"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1621905252507-b35492cc74b4?w=800&h=600&fit=crop",
+          "alt": "CFD analysis visualization",
+          "caption": "Computational fluid dynamics airflow analysis"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1621905252472-e8ec386c8bb3?w=800&h=600&fit=crop",
+          "alt": "Energy monitoring dashboard",
+          "caption": "Real-time energy consumption monitoring system"
+        }
+      ],
+      "demoUrl": "https://example.com/hvac-demo",
+      "githubUrl": "https://github.com/example/hvac",
+      "featured": true,
+      "duration": "6 months",
+      "teamSize": "4 engineers",
+      "impact": "30% energy reduction",
+      "challenges": [
+        "Complex building geometry affecting airflow patterns",
+        "Integrating with existing building management systems",
+        "Balancing energy efficiency with occupant comfort",
+        "Meeting stringent environmental regulations"
+      ],
+      "solutions": [
+        "Advanced CFD modeling to optimize ductwork design and placement",
+        "Smart sensor network for real-time monitoring and adjustment",
+        "Machine learning algorithms for predictive maintenance",
+        "Phased implementation to minimize building operation disruption"
+      ]
+    },
+    {
+      "id": "medical-device-prototype",
+      "title": "Medical Device Prototype",
+      "description": "Developed prototype for portable medical diagnostic device with focus on ergonomics, material selection, and regulatory compliance for FDA approval.",
+      "detailedDescription": "This medical device development project involved creating a portable diagnostic device from concept to functional prototype. The project required extensive research into biocompatible materials, ergonomic design principles, and FDA regulatory requirements. The final prototype successfully demonstrated the feasibility of the concept and formed the basis for further clinical testing and commercialization efforts.",
+      "technologies": [
+        "Fusion 360",
+        "3D Printing",
+        "Material Testing",
+        "FDA Standards",
+        "Biocompatibility Testing",
+        "Rapid Prototyping"
+      ],
+      "images": [
+        {
+          "url": "https://images.unsplash.com/photo-1559757148-5c350d0d3c56?w=800&h=600&fit=crop",
+          "alt": "Medical device prototype",
+          "caption": "Final prototype ready for clinical testing"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1559757175-0eb30cd8c063?w=800&h=600&fit=crop",
+          "alt": "3D printed components",
+          "caption": "Precision 3D printed components assembly"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1559757179-9c9fb3d57f6c?w=800&h=600&fit=crop",
+          "alt": "Testing setup",
+          "caption": "Biocompatibility and durability testing station"
+        }
+      ],
+      "demoUrl": "https://example.com/medical-demo",
+      "githubUrl": "https://github.com/example/medical-device",
+      "featured": false,
+      "duration": "12 months",
+      "teamSize": "3 engineers",
+      "impact": "FDA pre-submission approval",
+      "challenges": [
+        "Stringent FDA regulatory requirements and documentation",
+        "Biocompatibility testing for all patient-contact materials",
+        "Miniaturization while maintaining functionality",
+        "Cost optimization for commercial viability"
+      ],
+      "solutions": [
+        "Established comprehensive quality management system early in development",
+        "Collaborated with regulatory consultants throughout design process",
+        "Iterative prototyping with user feedback integration",
+        "Design for Manufacturing (DfM) principles to reduce production costs"
+      ]
+    },
+    {
+      "id": "sustainable-packaging-design",
+      "title": "Sustainable Packaging Design",
+      "description": "Created eco-friendly packaging solution that reduced material usage by 25% while maintaining product protection standards and cost-effectiveness.",
+      "detailedDescription": "This sustainability-focused project involved redesigning packaging solutions for consumer electronics to reduce environmental impact while maintaining protection standards. Through innovative design and material selection, we achieved a 25% reduction in material usage while improving the unboxing experience and reducing shipping costs. The project incorporated life cycle assessment principles and circular economy concepts.",
+      "technologies": [
+        "SolidWorks",
+        "Life Cycle Assessment",
+        "Material Science",
+        "Testing",
+        "Sustainable Design",
+        "Packaging Engineering"
+      ],
+      "images": [
+        {
+          "url": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&h=600&fit=crop",
+          "alt": "Sustainable packaging design",
+          "caption": "Eco-friendly packaging design with minimal material use"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1558618047-3c8c76ca7d13?w=800&h=600&fit=crop",
+          "alt": "Material testing",
+          "caption": "Durability and protection testing setup"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1558618047-3c8c76ca7d13?w=800&h=600&fit=crop",
+          "alt": "Lifecycle analysis",
+          "caption": "Environmental impact assessment results"
+        }
+      ],
+      "demoUrl": "https://example.com/packaging-demo",
+      "githubUrl": "https://github.com/example/sustainable-packaging",
+      "featured": false,
+      "duration": "4 months",
+      "teamSize": "2 engineers",
+      "impact": "25% material reduction",
+      "challenges": [
+        "Balancing protection requirements with material reduction goals",
+        "Sourcing sustainable materials with adequate performance",
+        "Cost constraints while improving sustainability",
+        "Meeting diverse shipping and handling requirements"
+      ],
+      "solutions": [
+        "Advanced structural optimization using topology optimization algorithms",
+        "Innovative folding patterns inspired by origami engineering",
+        "Partnership with sustainable material suppliers",
+        "Comprehensive testing program to validate protection performance"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "contactInfo": [
+    {
+      "icon": "Mail",
+      "label": "Email",
+      "value": "hello@example.com",
+      "href": "mailto:hello@example.com"
+    },
+    {
+      "icon": "Phone",
+      "label": "Phone",
+      "value": "+1 (555) 123-4567",
+      "href": "tel:+15551234567"
+    },
+    {
+      "icon": "MapPin",
+      "label": "Location",
+      "value": "San Francisco, CA",
+      "href": "#"
+    }
+  ],
+  "socialLinks": [
+    {
+      "icon": "Github",
+      "label": "GitHub",
+      "href": "https://github.com",
+      "color": "hover:text-gray-400"
+    },
+    {
+      "icon": "Linkedin",
+      "label": "LinkedIn",
+      "href": "https://linkedin.com",
+      "color": "hover:text-blue-400"
+    },
+    {
+      "icon": "Twitter",
+      "label": "Twitter",
+      "href": "https://twitter.com",
+      "color": "hover:text-blue-400"
+    }
+  ],
+  "formFields": {
+    "name": {
+      "id": "name",
+      "label": "Name",
+      "placeholder": "Your name",
+      "type": "text",
+      "required": true
+    },
+    "email": {
+      "id": "email",
+      "label": "Email",
+      "placeholder": "your@email.com",
+      "type": "email",
+      "required": true
+    },
+    "subject": {
+      "id": "subject",
+      "label": "Subject",
+      "placeholder": "Project inquiry",
+      "type": "text",
+      "required": true
+    },
+    "message": {
+      "id": "message",
+      "label": "Message",
+      "placeholder": "Tell me about your project...",
+      "type": "textarea",
+      "rows": 6,
+      "required": true
+    }
+  },
+  "messages": {
+    "success": {
+      "title": "Message sent!",
+      "description": "Thank you for your message. I'll get back to you soon."
+    },
+    "callToAction": {
+      "title": "Let's Build Something Amazing",
+      "description": "I'm always interested in new opportunities and exciting projects. Whether you have a specific idea in mind or just want to explore possibilities, I'd love to hear from you.",
+      "availability": "Available for freelance projects"
+    }
+  }
+}
