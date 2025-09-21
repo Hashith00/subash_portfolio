@@ -10,8 +10,8 @@ const Home = () => {
   const handleDownloadCV = () => {
     // You can replace this with an actual CV file path
     const link = document.createElement("a");
-    link.href = "/cv.pdf"; // Add your CV file to the public folder
-    link.download = "CV.pdf";
+    link.href = "/cv-subash.pdf"; // Add your CV file to the public folder
+    link.download = "cv-subash.pdf";
     link.click();
   };
 

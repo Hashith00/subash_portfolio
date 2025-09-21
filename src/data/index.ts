@@ -3,6 +3,7 @@ export { default as projectsData } from "./projects.json";
 export { default as personalData } from "./personal.json";
 export { default as experienceData } from "./experience.json";
 export { default as contactData } from "./contact.json";
+export { default as educationData } from "./education.json";
 
 // Type definitions for data structures
 export interface ProjectImage {
@@ -38,6 +39,21 @@ export interface ExperienceItem {
   description: string;
   achievements: string[];
   technologies: string[];
+}
+
+export interface EducationItem {
+  id: string;
+  degree: string;
+  institution: string;
+  location: string;
+  period: string;
+  gpa?: string;
+  honors?: string;
+  description: string;
+  achievements: string[];
+  coursework: string[];
+  projects: string[];
+  type: "degree" | "diploma" | "certification";
 }
 
 export interface ContactInfo {

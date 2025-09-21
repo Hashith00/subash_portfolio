@@ -8,35 +8,36 @@ import {
   Car,
   Footprints,
   BookOpen,
+  Users,
+  Music,
+  Puzzle,
+  Star,
 } from "lucide-react";
+import { personalData } from "@/data";
 
 const About = () => {
-  const highlights = [
-    {
-      icon: Settings,
-      title: "Precision Engineering",
-      description:
-        "Designing accurate, reliable mechanical systems with attention to detail",
-    },
-    {
-      icon: Lightbulb,
-      title: "Innovation Focus",
-      description:
-        "Creating innovative solutions that push the boundaries of engineering",
-    },
-    {
-      icon: Zap,
-      title: "Efficiency",
-      description:
-        "Optimizing processes and designs for maximum performance and cost-effectiveness",
-    },
-    {
-      icon: Heart,
-      title: "Passion",
-      description:
-        "Loving what I do and bringing enthusiasm to every engineering challenge",
-    },
-  ];
+  // Icon mapping for string to component conversion
+  const iconMap: { [key: string]: any } = {
+    Settings,
+    Lightbulb,
+    Zap,
+    Heart,
+    Users,
+    Music,
+    Footprints,
+    Puzzle,
+    Star,
+  };
+
+  const { about, skills } = personalData;
+  const highlights = about.highlights.map((highlight) => ({
+    ...highlight,
+    icon: iconMap[highlight.icon] || Settings,
+  }));
+  const hobbies = about.hobbies.map((hobby) => ({
+    ...hobby,
+    icon: iconMap[hobby.icon] || Music,
+  }));
 
   return (
     <section id="about" className="py-20 px-6">
@@ -46,44 +47,32 @@ const About = () => {
             About <span className="gradient-text">Me</span>
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            I'm a passionate mechanical engineer with a love for creating
-            innovative engineering solutions
+            {personalData.personalInfo.tagline}
           </p>
         </div>
 
         <div className="grid md:grid-cols-2 gap-12 items-center mb-16">
           <div>
-            <h3 className="text-2xl font-semibold mb-6">My Journey</h3>
-            <p className="text-muted-foreground mb-6 leading-relaxed">
-              With over 5 years of experience in mechanical engineering, I've
-              had the privilege of working with manufacturing companies and
-              startups to bring their innovative products to life. My journey
-              started with a mechanical engineering degree and has evolved
-              through continuous learning and hands-on experience.
-            </p>
-            <p className="text-muted-foreground mb-6 leading-relaxed">
-              I specialize in CAD design, automation systems, and manufacturing
-              optimization, always staying up-to-date with the latest
-              technologies and industry best practices. My approach combines
-              technical expertise with creative problem-solving to deliver
-              engineering solutions that truly make a difference.
-            </p>
+            <h3 className="text-2xl font-semibold mb-6">
+              {about.journey.title}
+            </h3>
+            {about.journey.paragraphs.map((paragraph, index) => (
+              <p
+                key={index}
+                className="text-muted-foreground mb-6 leading-relaxed"
+              >
+                {paragraph}
+              </p>
+            ))}
             <div className="flex flex-wrap gap-3">
-              <span className="bg-secondary px-3 py-1 rounded-full text-sm">
-                SolidWorks
-              </span>
-              <span className="bg-secondary px-3 py-1 rounded-full text-sm">
-                AutoCAD
-              </span>
-              <span className="bg-secondary px-3 py-1 rounded-full text-sm">
-                ANSYS
-              </span>
-              <span className="bg-secondary px-3 py-1 rounded-full text-sm">
-                MATLAB
-              </span>
-              <span className="bg-secondary px-3 py-1 rounded-full text-sm">
-                3D Printing
-              </span>
+              {skills.technologies.map((tech, index) => (
+                <span
+                  key={index}
+                  className="bg-secondary px-3 py-1 rounded-full text-sm"
+                >
+                  {tech}
+                </span>
+              ))}
             </div>
           </div>
 
@@ -116,22 +105,18 @@ const About = () => {
             When I'm not engineering, you'll find me
           </p>
           <div className="flex flex-wrap justify-center gap-4">
-            <span className="bg-secondary/50 px-4 py-2 rounded-full text-sm flex items-center gap-2">
-              <Printer className="w-4 h-4" />
-              3D Printing Projects
-            </span>
-            <span className="bg-secondary/50 px-4 py-2 rounded-full text-sm flex items-center gap-2">
-              <Car className="w-4 h-4" />
-              Automotive Tinkering
-            </span>
-            <span className="bg-secondary/50 px-4 py-2 rounded-full text-sm flex items-center gap-2">
-              <Footprints className="w-4 h-4" />
-              Running
-            </span>
-            <span className="bg-secondary/50 px-4 py-2 rounded-full text-sm flex items-center gap-2">
-              <BookOpen className="w-4 h-4" />
-              Reading Engineering Journals
-            </span>
+            {hobbies.map((hobby, index) => {
+              const IconComponent = hobby.icon;
+              return (
+                <span
+                  key={index}
+                  className="bg-secondary/50 px-4 py-2 rounded-full text-sm flex items-center gap-2"
+                >
+                  <IconComponent className="w-4 h-4" />
+                  {hobby.name}
+                </span>
+              );
+            })}
           </div>
         </div>
       </div>

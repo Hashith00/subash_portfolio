@@ -1,206 +1,397 @@
 {
   "projects": [
     {
-      "id": "automated-assembly-line",
-      "title": "Automated Assembly Line",
-      "description": "Designed and implemented a fully automated assembly system that increased production efficiency by 40%. Integrated sensors, PLCs, and robotic arms for seamless operation with quality control systems.",
-      "detailedDescription": "This project involved designing and implementing a state-of-the-art automated assembly line for automotive components. The system integrated advanced sensors, programmable logic controllers (PLCs), and robotic arms to create a seamless manufacturing process. The implementation resulted in a 40% increase in production efficiency while maintaining stringent quality control standards. The project required extensive collaboration with cross-functional teams and careful consideration of safety protocols, ergonomics, and maintenance requirements.",
+      "id": "portable-solar-cooker",
+      "title": "Portable Solar Cooker (Final Year Project)",
+      "description": "Designed and fabricated a portable solar cooker to provide a renewable and eco-friendly alternative for off-grid cooking.",
+      "detailedDescription": "Designed and fabricated a portable solar cooker to provide a renewable and eco-friendly alternative for off-grid cooking. The system focused on maximizing solar energy utilization, portability, and efficiency while maintaining affordability for rural households.",
       "technologies": [
         "SolidWorks",
-        "PLC Programming",
-        "HMI Design",
-        "AutoCAD",
-        "Robotics",
-        "SCADA Systems",
-        "Industrial Ethernet"
-      ],
-      "images": [
-        {
-          "url": "https://images.unsplash.com/photo-1581092918484-8313de0720c8?w=800&h=600&fit=crop",
-          "alt": "Automated assembly line overview",
-          "caption": "Complete assembly line system overview"
-        },
-        {
-          "url": "https://images.unsplash.com/photo-1581092334651-ddf26d9a09d0?w=800&h=600&fit=crop",
-          "alt": "Robotic arm in action",
-          "caption": "Precision robotic arm assembly process"
-        },
-        {
-          "url": "https://images.unsplash.com/photo-1581092160562-40aa08e78837?w=800&h=600&fit=crop",
-          "alt": "Control panel interface",
-          "caption": "HMI control panel for system monitoring"
-        },
-        {
-          "url": "https://images.unsplash.com/photo-1581092795442-31d5f6e5a70a?w=800&h=600&fit=crop",
-          "alt": "Quality control station",
-          "caption": "Integrated quality control and testing station"
-        }
-      ],
-      "demoUrl": "https://example.com/demo",
-      "githubUrl": "https://github.com/example",
-      "featured": true,
-      "duration": "8 months",
-      "teamSize": "6 engineers",
-      "impact": "40% efficiency increase",
-      "challenges": [
-        "Integration of legacy systems with new automation",
-        "Ensuring zero downtime during implementation",
-        "Meeting strict automotive industry quality standards",
-        "Coordinating with multiple vendor systems"
-      ],
-      "solutions": [
-        "Developed modular implementation approach for gradual rollout",
-        "Created comprehensive testing protocols and simulation models",
-        "Implemented redundant safety systems and backup processes",
-        "Established standardized communication protocols between systems"
-      ]
-    },
-    {
-      "id": "hvac-system-optimization",
-      "title": "HVAC System Optimization",
-      "description": "Redesigned commercial HVAC system resulting in 30% energy savings. Utilized CFD analysis and thermodynamic modeling for optimal performance and sustainability.",
-      "detailedDescription": "This comprehensive HVAC optimization project focused on redesigning the climate control systems for a large commercial building complex. Using advanced computational fluid dynamics (CFD) analysis and thermodynamic modeling, we were able to optimize airflow patterns, reduce energy consumption by 30%, and improve overall occupant comfort. The project incorporated sustainable design principles and smart control systems to create an intelligent, adaptive HVAC solution.",
-      "technologies": [
-        "ANSYS Fluent",
-        "MATLAB",
-        "Energy Modeling",
-        "BIM",
+        "ANSYS (Thermal Analysis)",
+        "Renewable Energy Systems",
         "Thermodynamics",
-        "CFD Analysis",
-        "IoT Sensors"
+        "Heat Transfer"
       ],
       "images": [
         {
-          "url": "https://images.unsplash.com/photo-1621905251189-08b45d6a269e?w=800&h=600&fit=crop",
-          "alt": "HVAC system design",
-          "caption": "3D model of optimized HVAC system layout"
+          "url": "/images/solar-cooker/design.jpg",
+          "alt": "CAD model of the portable solar cooker",
+          "caption": "SolidWorks design of the parabolic reflector"
         },
         {
-          "url": "https://images.unsplash.com/photo-1621905252507-b35492cc74b4?w=800&h=600&fit=crop",
-          "alt": "CFD analysis visualization",
-          "caption": "Computational fluid dynamics airflow analysis"
-        },
-        {
-          "url": "https://images.unsplash.com/photo-1621905252472-e8ec386c8bb3?w=800&h=600&fit=crop",
-          "alt": "Energy monitoring dashboard",
-          "caption": "Real-time energy consumption monitoring system"
+          "url": "/images/solar-cooker/prototype.jpg",
+          "alt": "Fabricated prototype of the solar cooker",
+          "caption": "Completed prototype during performance validation"
         }
       ],
-      "demoUrl": "https://example.com/hvac-demo",
-      "githubUrl": "https://github.com/example/hvac",
+      "demoUrl": null,
+      "githubUrl": null,
       "featured": true,
-      "duration": "6 months",
-      "teamSize": "4 engineers",
-      "impact": "30% energy reduction",
+      "impact": "Experimentally validated performance against conventional methods",
       "challenges": [
-        "Complex building geometry affecting airflow patterns",
-        "Integrating with existing building management systems",
-        "Balancing energy efficiency with occupant comfort",
-        "Meeting stringent environmental regulations"
+        "Maintaining cooking efficiency under varying solar conditions",
+        "Balancing portability with durability",
+        "Reducing heat losses to improve performance"
       ],
       "solutions": [
-        "Advanced CFD modeling to optimize ductwork design and placement",
-        "Smart sensor network for real-time monitoring and adjustment",
-        "Machine learning algorithms for predictive maintenance",
-        "Phased implementation to minimize building operation disruption"
+        "Optimized parabolic reflector and absorber plate design through CAD and CFD simulations",
+        "Selected lightweight yet durable materials for structure",
+        "Added thermal insulation to minimize energy loss",
+        "Experimentally validated performance compared to conventional cooking methods"
       ]
     },
     {
-      "id": "medical-device-prototype",
-      "title": "Medical Device Prototype",
-      "description": "Developed prototype for portable medical diagnostic device with focus on ergonomics, material selection, and regulatory compliance for FDA approval.",
-      "detailedDescription": "This medical device development project involved creating a portable diagnostic device from concept to functional prototype. The project required extensive research into biocompatible materials, ergonomic design principles, and FDA regulatory requirements. The final prototype successfully demonstrated the feasibility of the concept and formed the basis for further clinical testing and commercialization efforts.",
-      "technologies": [
-        "Fusion 360",
-        "3D Printing",
-        "Material Testing",
-        "FDA Standards",
-        "Biocompatibility Testing",
-        "Rapid Prototyping"
-      ],
-      "images": [
-        {
-          "url": "https://images.unsplash.com/photo-1559757148-5c350d0d3c56?w=800&h=600&fit=crop",
-          "alt": "Medical device prototype",
-          "caption": "Final prototype ready for clinical testing"
-        },
-        {
-          "url": "https://images.unsplash.com/photo-1559757175-0eb30cd8c063?w=800&h=600&fit=crop",
-          "alt": "3D printed components",
-          "caption": "Precision 3D printed components assembly"
-        },
-        {
-          "url": "https://images.unsplash.com/photo-1559757179-9c9fb3d57f6c?w=800&h=600&fit=crop",
-          "alt": "Testing setup",
-          "caption": "Biocompatibility and durability testing station"
-        }
-      ],
-      "demoUrl": "https://example.com/medical-demo",
-      "githubUrl": "https://github.com/example/medical-device",
-      "featured": false,
-      "duration": "12 months",
-      "teamSize": "3 engineers",
-      "impact": "FDA pre-submission approval",
-      "challenges": [
-        "Stringent FDA regulatory requirements and documentation",
-        "Biocompatibility testing for all patient-contact materials",
-        "Miniaturization while maintaining functionality",
-        "Cost optimization for commercial viability"
-      ],
-      "solutions": [
-        "Established comprehensive quality management system early in development",
-        "Collaborated with regulatory consultants throughout design process",
-        "Iterative prototyping with user feedback integration",
-        "Design for Manufacturing (DfM) principles to reduce production costs"
-      ]
-    },
-    {
-      "id": "sustainable-packaging-design",
-      "title": "Sustainable Packaging Design",
-      "description": "Created eco-friendly packaging solution that reduced material usage by 25% while maintaining product protection standards and cost-effectiveness.",
-      "detailedDescription": "This sustainability-focused project involved redesigning packaging solutions for consumer electronics to reduce environmental impact while maintaining protection standards. Through innovative design and material selection, we achieved a 25% reduction in material usage while improving the unboxing experience and reducing shipping costs. The project incorporated life cycle assessment principles and circular economy concepts.",
+      "id": "automated-solid-waste-compactor",
+      "title": "Automated Solid Waste Compacting & Packing Machine",
+      "description": "Developed a vertical hydraulic compactor integrated with an automatic stripping and binding mechanism to reduce waste volume and improve handling efficiency.",
+      "detailedDescription": "Developed a vertical hydraulic compactor integrated with an automatic stripping and binding mechanism to reduce waste volume and improve handling efficiency.",
       "technologies": [
         "SolidWorks",
-        "Life Cycle Assessment",
-        "Material Science",
-        "Testing",
-        "Sustainable Design",
-        "Packaging Engineering"
+        "Hydraulic Systems",
+        "Automation",
+        "Material Handling Design"
       ],
       "images": [
         {
-          "url": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&h=600&fit=crop",
-          "alt": "Sustainable packaging design",
-          "caption": "Eco-friendly packaging design with minimal material use"
+          "url": "/images/waste-compactor/model.jpg",
+          "alt": "3D model of the waste compactor",
+          "caption": "SolidWorks model showing hydraulic press and binding system"
         },
         {
-          "url": "https://images.unsplash.com/photo-1558618047-3c8c76ca7d13?w=800&h=600&fit=crop",
-          "alt": "Material testing",
-          "caption": "Durability and protection testing setup"
-        },
-        {
-          "url": "https://images.unsplash.com/photo-1558618047-3c8c76ca7d13?w=800&h=600&fit=crop",
-          "alt": "Lifecycle analysis",
-          "caption": "Environmental impact assessment results"
+          "url": "/images/waste-compactor/mechanism.jpg",
+          "alt": "Close-up of the automated binding mechanism",
+          "caption": "Detail of the automated stripping and binding mechanism"
         }
       ],
-      "demoUrl": "https://example.com/packaging-demo",
-      "githubUrl": "https://github.com/example/sustainable-packaging",
-      "featured": false,
-      "duration": "4 months",
-      "teamSize": "2 engineers",
-      "impact": "25% material reduction",
+      "demoUrl": null,
+      "githubUrl": null,
+      "featured": true,
+      "impact": "Improved waste handling efficiency by over 60%",
       "challenges": [
-        "Balancing protection requirements with material reduction goals",
-        "Sourcing sustainable materials with adequate performance",
-        "Cost constraints while improving sustainability",
-        "Meeting diverse shipping and handling requirements"
+        "Reducing waste volume significantly without material rebound",
+        "Synchronizing compaction, stripping, and binding processes",
+        "Ensuring operator safety and ease of use"
       ],
       "solutions": [
-        "Advanced structural optimization using topology optimization algorithms",
-        "Innovative folding patterns inspired by origami engineering",
-        "Partnership with sustainable material suppliers",
-        "Comprehensive testing program to validate protection performance"
+        "Designed a vertical hydraulic press system for compacting",
+        "Developed automated binding and stripping mechanism for packaging",
+        "Integrated safety guards and emergency shutoff controls"
+      ]
+    },
+    {
+      "id": "solid-salt-feeding-screw",
+      "title": "Redesign of Solid Salt Feeding Screw",
+      "description": "Optimized a screw conveyor mechanism for a fluidized salt tank to improve feeding efficiency and minimize wear.",
+      "detailedDescription": "Optimized a screw conveyor mechanism for a fluidized salt tank to improve feeding efficiency and minimize wear.",
+      "technologies": [
+        "SolidWorks",
+        "Mechanical Design",
+        "Materials Engineering"
+      ],
+      "images": [
+        {
+          "url": "/images/screw-conveyor/design.jpg",
+          "alt": "CAD model of the redesigned screw",
+          "caption": "Modified screw pitch and diameter in SolidWorks"
+        }
+      ],
+      "demoUrl": null,
+      "githubUrl": null,
+      "featured": false,
+      "impact": "Improved efficiency and reduced mechanical wear",
+      "challenges": [
+        "Excessive wear in high-friction environment",
+        "Irregular flow of granular salt particles",
+        "Maintaining consistent feed rate"
+      ],
+      "solutions": [
+        "Modified screw pitch and diameter for smoother flow",
+        "Selected wear-resistant material coating for longer lifespan",
+        "Improved shaft alignment to reduce mechanical stress"
+      ]
+    },
+    {
+      "id": "r-pin-detector",
+      "title": "R-Pin Detector for Conveyor Line",
+      "description": "Developed a sensor-based system to detect missing R-pins in conveyor lines, ensuring higher quality assurance and reducing defects in production.",
+      "detailedDescription": "Developed a sensor-based system to detect missing R-pins in conveyor lines, ensuring higher quality assurance and reducing defects in production.",
+      "technologies": [
+        "Sensors",
+        "Control Systems",
+        "PLC Programming",
+        "Quality Assurance"
+      ],
+      "images": [
+        {
+          "url": "/images/r-pin-detector/system.jpg",
+          "alt": "Diagram of the sensor integration on the conveyor",
+          "caption": "Sensor placement for real-time monitoring"
+        }
+      ],
+      "demoUrl": null,
+      "githubUrl": null,
+      "featured": false,
+      "impact": "Improved quality assurance and defect reduction",
+      "challenges": [
+        "Detecting small missing components at high conveyor speed",
+        "Minimizing false positives",
+        "Integrating with existing production systems"
+      ],
+      "solutions": [
+        "Installed proximity and optical sensors for real-time monitoring",
+        "Linked system to PLC for automated alerts",
+        "Designed modular integration for existing conveyor layouts"
+      ]
+    },
+    {
+      "id": "pneumatic-distribution-system",
+      "title": "Modified Pneumatic Distribution System",
+      "description": "Designed and fabricated an improved pneumatic distribution system to enhance reliability and energy efficiency in an industrial setup.",
+      "detailedDescription": "Designed and fabricated an improved pneumatic distribution system to enhance reliability and energy efficiency in an industrial setup.",
+      "technologies": [
+        "Pneumatics",
+        "Fluid Power Systems",
+        "CAD",
+        "Industrial Automation"
+      ],
+      "images": [
+        {
+          "url": "/images/pneumatic-system/layout.jpg",
+          "alt": "CAD layout of the optimized pneumatic lines",
+          "caption": "Optimized line routing and manifold placement"
+        }
+      ],
+      "demoUrl": null,
+      "githubUrl": null,
+      "featured": false,
+      "impact": "Enhanced reliability and energy efficiency",
+      "challenges": [
+        "Pressure losses in long pneumatic lines",
+        "Energy inefficiency from leaks and poor routing",
+        "Difficult maintenance access"
+      ],
+      "solutions": [
+        "Optimized line routing and manifold placement using CAD layouts",
+        "Used high-quality seals to minimize leaks",
+        "Standardized quick-connect fittings for easier maintenance"
+      ]
+    },
+    {
+      "id": "electrical-panel",
+      "title": "Water & Dust Resistant Electrical Panel",
+      "description": "Collaborated in the design and fabrication of an IP-rated electrical panel for safe and reliable industrial operations.",
+      "detailedDescription": "Collaborated in the design and fabrication of an IP-rated electrical panel for safe and reliable industrial operations.",
+      "technologies": [
+        "Electrical Panel Design",
+        "IP Standards",
+        "CAD",
+        "Industrial Safety"
+      ],
+      "images": [
+        {
+          "url": "/images/electrical-panel/design.jpg",
+          "alt": "Design of the IP-rated electrical panel",
+          "caption": "Sealed enclosure design with gaskets"
+        }
+      ],
+      "demoUrl": null,
+      "githubUrl": null,
+      "featured": false,
+      "impact": "Ensured safe and reliable operations in harsh environments",
+      "challenges": [
+        "Protecting sensitive components from harsh environments",
+        "Ensuring compliance with safety standards",
+        "Balancing cost with protection level"
+      ],
+      "solutions": [
+        "Designed sealed enclosures with gaskets and filters",
+        "Used corrosion-resistant materials",
+        "Tested for water and dust ingress to meet IP rating requirements"
+      ]
+    },
+    {
+      "id": "automated-staircase-light",
+      "title": "Automated Staircase Light System",
+      "description": "Designed a sensor-controlled lighting system to improve energy efficiency in buildings by activating lights only when required.",
+      "detailedDescription": "Designed a sensor-controlled lighting system to improve energy efficiency in buildings by activating lights only when required.",
+      "technologies": ["Sensors", "Microcontrollers", "Control Systems"],
+      "images": [
+        {
+          "url": "/images/staircase-light/system.jpg",
+          "alt": "Diagram of the sensor-controlled light system",
+          "caption": "Modular system design for retrofit applications"
+        }
+      ],
+      "demoUrl": null,
+      "githubUrl": null,
+      "featured": false,
+      "impact": "Improved energy efficiency in buildings",
+      "challenges": [
+        "Ensuring reliable detection of movement",
+        "Preventing unnecessary energy usage",
+        "Simple installation in existing buildings"
+      ],
+      "solutions": [
+        "Integrated PIR motion sensors with microcontroller logic",
+        "Automatic switch-off after preset delay",
+        "Designed compact, modular system for retrofit applications"
+      ]
+    },
+    {
+      "id": "smart-traffic-control",
+      "title": "Smart Traffic Control Machine with Image Processing",
+      "description": "Developed a vision-based traffic light control prototype to optimize urban traffic flow and reduce congestion.",
+      "detailedDescription": "Developed a vision-based traffic light control prototype to optimize urban traffic flow and reduce congestion.",
+      "technologies": [
+        "OpenCV (Image Processing)",
+        "Microcontrollers",
+        "Control Systems"
+      ],
+      "images": [
+        {
+          "url": "/images/traffic-control/prototype.jpg",
+          "alt": "Prototype of the smart traffic control system",
+          "caption": "Hardware prototype with camera and microcontroller"
+        }
+      ],
+      "demoUrl": null,
+      "githubUrl": null,
+      "featured": false,
+      "impact": "Optimized urban traffic flow in a prototype system",
+      "challenges": [
+        "Real-time vehicle detection under varying light/weather",
+        "Synchronizing with traffic signals",
+        "Scalability for urban deployment"
+      ],
+      "solutions": [
+        "Implemented image recognition for vehicle counting",
+        "Adjusted traffic signal cycles dynamically based on traffic density",
+        "Designed modular hardware for integration with existing systems"
+      ]
+    },
+    {
+      "id": "centrifugal-casting-machine",
+      "title": "Centrifugal Casting Machine",
+      "description": "Designed and fabricated a centrifugal casting machine to produce cylindrical castings with improved uniformity and material strength.",
+      "detailedDescription": "Designed and fabricated a centrifugal casting machine to produce cylindrical castings with improved uniformity and material strength.",
+      "technologies": [
+        "SolidWorks",
+        "Manufacturing Processes",
+        "Materials Engineering"
+      ],
+      "images": [
+        {
+          "url": "/images/casting-machine/design.jpg",
+          "alt": "CAD design of the centrifugal casting machine",
+          "caption": "SolidWorks model of the high-strength rotating drum"
+        }
+      ],
+      "demoUrl": null,
+      "githubUrl": null,
+      "featured": false,
+      "impact": "Improved uniformity and material strength of castings",
+      "challenges": [
+        "Maintaining balance during high-speed rotation",
+        "Preventing porosity in castings",
+        "Ensuring consistent wall thickness"
+      ],
+      "solutions": [
+        "Designed high-strength rotating drum with secure locking",
+        "Optimized mold design to minimize defects",
+        "Implemented cooling system for improved solidification"
+      ]
+    },
+    {
+      "id": "automated-coffee-roaster",
+      "title": "Automated Coffee Roasting Machine",
+      "description": "Developed an automated coffee roasting machine with temperature and motion control to ensure consistent roasting quality.",
+      "detailedDescription": "Developed an automated coffee roasting machine with temperature and motion control to ensure consistent roasting quality.",
+      "technologies": [
+        "SolidWorks",
+        "Control Systems",
+        "Sensors",
+        "Thermodynamics"
+      ],
+      "images": [
+        {
+          "url": "/images/coffee-roaster/machine.jpg",
+          "alt": "The automated coffee roasting machine prototype",
+          "caption": "Prototype with rotating drum and temperature control system"
+        }
+      ],
+      "demoUrl": null,
+      "githubUrl": null,
+      "featured": false,
+      "impact": "Ensured consistent roasting quality through automation",
+      "challenges": [
+        "Maintaining precise temperature control throughout roasting",
+        "Uniform heat distribution across beans",
+        "Automation of roasting and cooling cycles"
+      ],
+      "solutions": [
+        "Integrated thermocouples with control system for real-time feedback",
+        "Designed rotating drum for even roasting",
+        "Added automated cooling stage to preserve flavor"
+      ]
+    },
+    {
+      "id": "motion-analysis-dragon-body",
+      "title": "Motion Analysis of a Dragon Body",
+      "description": "Conducted kinematic and dynamic motion analysis of a dragon-inspired body structure using CAD and simulation tools.",
+      "detailedDescription": "Conducted kinematic and dynamic motion analysis of a dragon-inspired body structure using CAD and simulation tools.",
+      "technologies": ["SolidWorks Motion", "ANSYS", "Kinematics & Dynamics"],
+      "images": [
+        {
+          "url": "/images/dragon-motion/simulation.jpg",
+          "alt": "Simulation of dragon body motion",
+          "caption": "ANSYS simulation showing dynamic loads on the structure"
+        }
+      ],
+      "demoUrl": null,
+      "githubUrl": null,
+      "featured": false,
+      "impact": "Optimized body dynamics for smooth and stable motion",
+      "challenges": [
+        "Complex joint and linkage simulation",
+        "Realistic modeling of motion paths",
+        "Stability under dynamic loads"
+      ],
+      "solutions": [
+        "Created CAD model with multiple linkages",
+        "Simulated motion sequences using SolidWorks Motion and ANSYS",
+        "Optimized body dynamics for smooth and stable motion"
+      ]
+    },
+    {
+      "id": "low-noise-grass-cutter",
+      "title": "Low-Noise Smart Grass Cutting Machine",
+      "description": "Designed a noise-reduced, eco-friendly automated grass cutting machine with improved performance and energy efficiency.",
+      "detailedDescription": "Designed a noise-reduced, eco-friendly automated grass cutting machine with improved performance and energy efficiency.",
+      "technologies": [
+        "SolidWorks",
+        "Noise Reduction Engineering",
+        "Control Systems"
+      ],
+      "images": [
+        {
+          "url": "/images/grass-cutter/design.jpg",
+          "alt": "CAD model of the low-noise grass cutter",
+          "caption": "Blade housing with sound-dampening design"
+        }
+      ],
+      "demoUrl": null,
+      "githubUrl": null,
+      "featured": false,
+      "impact": "Reduced noise levels without compromising cutting power",
+      "challenges": [
+        "Reducing noise levels without compromising cutting power",
+        "Improving automation for smooth operation",
+        "Designing lightweight but durable structure"
+      ],
+      "solutions": [
+        "Developed blade housing with sound-dampening design",
+        "Integrated automated navigation controls",
+        "Used lightweight alloys to reduce vibration and noise"
       ]
     }
   ]

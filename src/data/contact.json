@@ -3,39 +3,27 @@
     {
       "icon": "Mail",
       "label": "Email",
-      "value": "hello@example.com",
-      "href": "mailto:hello@example.com"
+      "value": "subhash.kshan@gmail.com",
+      "href": "mailto:subhash.kshan@gmail.com"
     },
     {
       "icon": "Phone",
       "label": "Phone",
-      "value": "+1 (555) 123-4567",
-      "href": "tel:+15551234567"
+      "value": "+94 77 495 6782",
+      "href": "tel:+94774956782"
     },
     {
       "icon": "MapPin",
       "label": "Location",
-      "value": "San Francisco, CA",
+      "value": "Ratnapura, Sri Lanka",
       "href": "#"
     }
   ],
   "socialLinks": [
     {
-      "icon": "Github",
-      "label": "GitHub",
-      "href": "https://github.com",
-      "color": "hover:text-gray-400"
-    },
-    {
       "icon": "Linkedin",
       "label": "LinkedIn",
-      "href": "https://linkedin.com",
-      "color": "hover:text-blue-400"
-    },
-    {
-      "icon": "Twitter",
-      "label": "Twitter",
-      "href": "https://twitter.com",
+      "href": "https://www.linkedin.com/in/subhashkavishan",
       "color": "hover:text-blue-400"
     }
   ],

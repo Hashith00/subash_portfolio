@@ -13,6 +13,7 @@ import {
   Send,
 } from "lucide-react";
 import { useToast } from "@/hooks/use-toast";
+import { contactData } from "@/data";
 
 const Contact = () => {
   const [formData, setFormData] = useState({
@@ -23,13 +24,23 @@ const Contact = () => {
   });
   const { toast } = useToast();
 
+  // Icon mapping for string to component conversion
+  const iconMap: { [key: string]: any } = {
+    Mail,
+    Phone,
+    MapPin,
+    Github,
+    Linkedin,
+    Twitter,
+  };
+
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
 
     // Simulate form submission
     toast({
-      title: "Message sent!",
-      description: "Thank you for your message. I'll get back to you soon.",
+      title: contactData.messages.success.title,
+      description: contactData.messages.success.description,
     });
 
     // Reset form
@@ -45,47 +56,17 @@ const Contact = () => {
     });
   };
 
-  const contactInfo = [
-    {
-      icon: Mail,
-      label: "Email",
-      value: "hello@example.com",
-      href: "mailto:hello@example.com",
-    },
-    {
-      icon: Phone,
-      label: "Phone",
-      value: "+1 (555) 123-4567",
-      href: "tel:+15551234567",
-    },
-    {
-      icon: MapPin,
-      label: "Location",
-      value: "San Francisco, CA",
-      href: "#",
-    },
-  ];
+  // Map contact info with icons
+  const contactInfo = contactData.contactInfo.map((item) => ({
+    ...item,
+    icon: iconMap[item.icon] || Mail,
+  }));
 
-  const socialLinks = [
-    {
-      icon: Github,
-      label: "GitHub",
-      href: "https://github.com",
-      color: "hover:text-gray-400",
-    },
-    {
-      icon: Linkedin,
-      label: "LinkedIn",
-      href: "https://linkedin.com",
-      color: "hover:text-blue-400",
-    },
-    {
-      icon: Twitter,
-      label: "Twitter",
-      href: "https://twitter.com",
-      color: "hover:text-blue-400",
-    },
-  ];
+  // Map social links with icons
+  const socialLinks = contactData.socialLinks.map((link) => ({
+    ...link,
+    icon: iconMap[link.icon] || Linkedin,
+  }));
 
   return (
     <section id="contact" className="py-20 px-6">
@@ -95,8 +76,7 @@ const Contact = () => {
             Get In <span className="gradient-text">Touch</span>
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            Ready to start your next project? Let's discuss how we can work
-            together to bring your ideas to life.
+            {contactData.messages.callToAction.description}
           </p>
         </div>
 
@@ -111,36 +91,36 @@ const Contact = () => {
                 <div className="grid md:grid-cols-2 gap-4">
                   <div>
                     <label
-                      htmlFor="name"
+                      htmlFor={contactData.formFields.name.id}
                       className="block text-sm font-medium mb-2"
                     >
-                      Name
+                      {contactData.formFields.name.label}
                     </label>
                     <Input
-                      id="name"
-                      name="name"
+                      id={contactData.formFields.name.id}
+                      name={contactData.formFields.name.id}
                       value={formData.name}
                       onChange={handleChange}
-                      placeholder="Your name"
-                      required
+                      placeholder={contactData.formFields.name.placeholder}
+                      required={contactData.formFields.name.required}
                       className="bg-secondary/50 border-border"
                     />
                   </div>
                   <div>
                     <label
-                      htmlFor="email"
+                      htmlFor={contactData.formFields.email.id}
                       className="block text-sm font-medium mb-2"
                     >
-                      Email
+                      {contactData.formFields.email.label}
                     </label>
                     <Input
-                      id="email"
-                      name="email"
-                      type="email"
+                      id={contactData.formFields.email.id}
+                      name={contactData.formFields.email.id}
+                      type={contactData.formFields.email.type}
                       value={formData.email}
                       onChange={handleChange}
-                      placeholder="your@email.com"
-                      required
+                      placeholder={contactData.formFields.email.placeholder}
+                      required={contactData.formFields.email.required}
                       className="bg-secondary/50 border-border"
                     />
                   </div>
@@ -148,37 +128,37 @@ const Contact = () => {
 
                 <div>
                   <label
-                    htmlFor="subject"
+                    htmlFor={contactData.formFields.subject.id}
                     className="block text-sm font-medium mb-2"
                   >
-                    Subject
+                    {contactData.formFields.subject.label}
                   </label>
                   <Input
-                    id="subject"
-                    name="subject"
+                    id={contactData.formFields.subject.id}
+                    name={contactData.formFields.subject.id}
                     value={formData.subject}
                     onChange={handleChange}
-                    placeholder="Project inquiry"
-                    required
+                    placeholder={contactData.formFields.subject.placeholder}
+                    required={contactData.formFields.subject.required}
                     className="bg-secondary/50 border-border"
                   />
                 </div>
 
                 <div>
                   <label
-                    htmlFor="message"
+                    htmlFor={contactData.formFields.message.id}
                     className="block text-sm font-medium mb-2"
                   >
-                    Message
+                    {contactData.formFields.message.label}
                   </label>
                   <Textarea
-                    id="message"
-                    name="message"
+                    id={contactData.formFields.message.id}
+                    name={contactData.formFields.message.id}
                     value={formData.message}
                     onChange={handleChange}
-                    placeholder="Tell me about your project..."
-                    rows={6}
-                    required
+                    placeholder={contactData.formFields.message.placeholder}
+                    rows={contactData.formFields.message.rows}
+                    required={contactData.formFields.message.required}
                     className="bg-secondary/50 border-border resize-none"
                   />
                 </div>
@@ -248,16 +228,14 @@ const Contact = () => {
             <Card className="glass-card border-border">
               <CardContent className="p-6">
                 <h3 className="text-lg font-semibold mb-4">
-                  Let's Build Something Amazing
+                  {contactData.messages.callToAction.title}
                 </h3>
                 <p className="text-muted-foreground text-sm leading-relaxed mb-4">
-                  I'm always interested in new opportunities and exciting
-                  projects. Whether you have a specific idea in mind or just
-                  want to explore possibilities, I'd love to hear from you.
+                  {contactData.messages.callToAction.description}
                 </p>
                 <div className="flex items-center gap-2 text-sm text-muted-foreground">
                   <div className="w-2 h-2 bg-accent rounded-full animate-pulse"></div>
-                  <span>Available for freelance projects</span>
+                  <span>{contactData.messages.callToAction.availability}</span>
                 </div>
               </CardContent>
             </Card>

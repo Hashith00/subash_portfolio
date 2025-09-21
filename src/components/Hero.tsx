@@ -14,6 +14,27 @@ const Hero = () => {
           </span>
         </div>
 
+        {/* Profile Picture */}
+        <div className="relative mb-8 flex justify-center">
+          <div className="relative group">
+            {/* Gradient Border */}
+            <div className="absolute inset-0 bg-gradient-to-r from-primary via-accent to-primary rounded-full p-1 animate-pulse">
+              <div className="w-full h-full bg-background rounded-full"></div>
+            </div>
+            {/* Profile Image */}
+            <div className="relative w-32 h-32 md:w-40 md:h-40 lg:w-60 lg:h-60 rounded-full overflow-hidden border-4 border-transparent bg-gradient-to-r from-primary via-accent to-primary p-1 group-hover:scale-105 transition-transform duration-300">
+              <img
+                src="/profile-picture.jpg"
+                alt="Subhash Kavishan - Mechanical Engineering Student"
+                className="w-full h-full object-cover rounded-full bg-background"
+                loading="eager"
+              />
+            </div>
+            {/* Floating Ring Animation */}
+            <div className="absolute inset-0 rounded-full border-2 border-primary/20 animate-ping"></div>
+          </div>
+        </div>
+
         {/* Main Headline */}
         <h1 className="text-5xl md:text-7xl font-bold mb-6 leading-tight">
           Innovative engineering for{" "}

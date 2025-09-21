@@ -1,0 +1,87 @@
+[
+  {
+    "id": "bsc-mechanical-manufacturing-engineering",
+    "degree": "Bachelor of Science (Hons) in Mechanical & Manufacturing Engineering",
+    "institution": "University of Ruhuna",
+    "location": "Sri Lanka",
+    "period": "2020 – Present",
+    "description": "Specializing in mechanical systems, product design, and sustainable manufacturing technologies. Final year capstone project focused on renewable energy utilization through the design and fabrication of a Portable Solar Cooker.",
+    "achievements": [
+      "Consistently ranked among top students with strong academic performance",
+      "Active member and Secretary of the Ruhuna Engineering Student Chapter of IESL",
+      "Editorial Pillar Head for Undergraduate Inventor of the Year 2025, IESL",
+      "Represented the university in multiple national-level engineering competitions and workshops"
+    ],
+    "coursework": [
+      "Machine Design & CAD",
+      "Manufacturing Processes",
+      "Thermodynamics & Heat Transfer",
+      "Control Systems & Automation",
+      "Finite Element Analysis",
+      "Fluid Mechanics",
+      "Renewable Energy Systems"
+    ],
+    "projects": [
+      "Portable Solar Cooker (Final Year Project)",
+      "Automated Solid Waste Compacting & Packing Machine",
+      "Smart Traffic Control Machine",
+      "Automated Coffee Roasting Machine"
+    ],
+    "type": "degree"
+  },
+  {
+    "id": "diploma-in-english",
+    "degree": "Diploma in English",
+    "institution": "Sabaragamuwa University of Sri Lanka",
+    "location": "Sri Lanka",
+    "period": "2019 – 2020",
+    "honors": "Successfully completed with merit recognition",
+    "description": "Completed diploma-level studies in English, enhancing professional communication, academic writing, and presentation skills.",
+    "achievements": [
+      "Improved technical communication for academic and industry contexts",
+      "Delivered technical presentations and written reports in English",
+      "Strengthened communication for teamwork and leadership roles in engineering societies"
+    ],
+    "coursework": [
+      "Academic Writing & Research Methods",
+      "Professional Communication Skills",
+      "Grammar & Linguistics",
+      "Public Speaking & Presentation Skills"
+    ],
+    "projects": [],
+    "type": "diploma"
+  },
+  {
+    "id": "gce-advanced-level",
+    "degree": "G.C.E. Advanced Level (Physical Science Stream)",
+    "institution": "Sivali Central College, Ratnapura",
+    "location": "Ratnapura, Sri Lanka",
+    "period": "2017 – 2019",
+    "description": "Focused on Mathematics, Physics, and Chemistry under the Physical Science stream. Built strong analytical and logical reasoning skills, forming a solid foundation for engineering studies.",
+    "achievements": [
+      "Achieved 2As and 1B, showcasing strong problem-solving and analytical skills",
+      "Ranked among top-performing students in the province",
+      "Participated in inter-school science and mathematics competitions"
+    ],
+    "coursework": ["Combined Mathematics", "Physics", "Chemistry"],
+    "projects": [],
+    "type": "degree"
+  },
+  {
+    "id": "gce-ordinary-level",
+    "degree": "G.C.E. Ordinary Level",
+    "institution": "Mihindu College, Ratnapura",
+    "location": "Ratnapura, Sri Lanka",
+    "period": "2016",
+    "description": "Built a strong foundation for advanced studies in science and engineering.",
+    "achievements": [
+      "Achieved 9As, demonstrating academic excellence across mathematics, science, and language subjects",
+      "Served on the Prefect Board (both Junior and Senior), gaining leadership and organizational skills",
+      "Actively engaged in Chess and Gymnastics, developing discipline, focus, and teamwork",
+      "Recognized as a top achiever in school examinations"
+    ],
+    "coursework": [],
+    "projects": [],
+    "type": "degree"
+  }
+]

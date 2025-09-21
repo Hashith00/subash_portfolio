@@ -1,95 +1,10 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Calendar, MapPin, Briefcase, GraduationCap } from "lucide-react";
+import { experienceData } from "@/data";
 
 const Experience = () => {
-  const experiences = [
-    {
-      type: "work",
-      title: "Senior Mechanical Engineer",
-      company: "Advanced Manufacturing Corp",
-      location: "Detroit, MI",
-      period: "2022 - Present",
-      description:
-        "Led product design initiatives and process optimization for automotive components, mentored junior engineers, and implemented lean manufacturing practices.",
-      achievements: [
-        "Designed automation systems serving 5+ production lines",
-        "Reduced manufacturing costs by 25% through design improvements",
-        "Led a team of 8 engineers on major product launches",
-        "Implemented lean manufacturing principles increasing efficiency by 35%",
-      ],
-      technologies: [
-        "SolidWorks",
-        "ANSYS",
-        "Six Sigma",
-        "Lean Manufacturing",
-        "GD&T",
-      ],
-    },
-    {
-      type: "work",
-      title: "Mechanical Design Engineer",
-      company: "Innovation Dynamics",
-      location: "Chicago, IL",
-      period: "2020 - 2022",
-      description:
-        "Designed mechanical systems for industrial automation and developed prototypes for next-generation manufacturing equipment.",
-      achievements: [
-        "Developed 5+ major automation systems increasing production efficiency",
-        "Improved prototype development cycle by 40% through process optimization",
-        "Collaborated with cross-functional teams of 12+ members",
-        "Successfully obtained 3 patents for innovative mechanical designs",
-      ],
-      technologies: ["AutoCAD", "Fusion 360", "MATLAB", "PLCs", "3D Printing"],
-    },
-    {
-      type: "work",
-      title: "Junior Mechanical Engineer",
-      company: "Precision Engineering Inc",
-      location: "Milwaukee, WI",
-      period: "2019 - 2020",
-      description:
-        "Supported senior engineers in design projects and manufacturing process improvements across diverse industrial applications.",
-      achievements: [
-        "Contributed to 15+ successful product launches",
-        "Improved quality control processes reducing defects by 20%",
-        "Specialized in precision machining and assembly processes",
-        "Managed project documentation and compliance requirements",
-      ],
-      technologies: [
-        "CAD Design",
-        "GD&T",
-        "Quality Control",
-        "Manufacturing",
-        "Testing",
-      ],
-    },
-  ];
-
-  const education = [
-    {
-      type: "education",
-      title: "Bachelor of Science in Mechanical Engineering",
-      company: "Michigan Institute of Technology",
-      location: "Michigan, USA",
-      period: "2015 - 2019",
-      description:
-        "Focused on design, manufacturing, and automation systems. Graduated Summa Cum Laude with specialization in product development.",
-      achievements: [
-        "GPA: 3.9/4.0 - Summa Cum Laude",
-        "President of ASME Student Chapter",
-        "Outstanding Senior Design Project Award",
-        "Published research on sustainable manufacturing processes",
-      ],
-      technologies: [
-        "Thermodynamics",
-        "Fluid Mechanics",
-        "Materials Science",
-        "Manufacturing",
-        "Controls",
-      ],
-    },
-  ];
+  const experiences = experienceData.workExperience;
 
   const ExperienceCard = ({ item, index }: { item: any; index: number }) => (
     <Card
@@ -177,18 +92,6 @@ const Experience = () => {
           </h3>
           <div className="space-y-8">
             {experiences.map((item, index) => (
-              <ExperienceCard key={index} item={item} index={index} />
-            ))}
-          </div>
-        </div>
-
-        {/* Education */}
-        <div>
-          <h3 className="text-2xl font-semibold mb-8 text-center">
-            <span className="gradient-text">Education</span>
-          </h3>
-          <div className="space-y-8">
-            {education.map((item, index) => (
               <ExperienceCard key={index} item={item} index={index} />
             ))}
           </div>
