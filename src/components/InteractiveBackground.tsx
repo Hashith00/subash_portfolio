@@ -3,16 +3,12 @@ import React from "react";
 const InteractiveBackground: React.FC = () => {
   return (
     <div className="fixed inset-0 -z-10 overflow-hidden">
-      {/* Spline Interactive Background */}
-      <iframe
-        src="https://my.spline.design/retrofuturismbganimation-7BA3FbsQRuU7rUucsvfDaTgo/"
-        frameBorder="0"
-        width="100%"
-        height="100%"
-        className="absolute inset-0 w-full h-full"
-        title="Retrofuturism Background Animation"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-        allowFullScreen
+      {/* Background Image */}
+      <div
+        className="absolute inset-0 w-full h-full bg-cover bg-center bg-no-repeat"
+        style={{
+          backgroundImage: "url(/background_image.png)",
+        }}
       />
 
       {/* Dark overlay for better text readability */}
