@@ -7,27 +7,6 @@
       "company": "Ansell Lanka (Pvt) Ltd",
       "location": "Biyagama",
       "period": "2023 – 2024",
-      "description": "Assisted in troubleshooting automation systems, maintaining production equipment, and supporting process optimization to improve manufacturing efficiency.",
-      "achievements": [
-        "Supported troubleshooting and preventive maintenance of automation systems across multiple production lines.",
-        "Contributed to process improvements that minimized downtime and increased reliability.",
-        "Collaborated with senior engineers to enhance machine safety and energy efficiency.",
-        "Assisted in designing and fabricating an IP-rated electrical enclosure to ensure safer operations."
-      ],
-      "technologies": [
-        "PLC Programming",
-        "Pneumatics",
-        "Electrical Panel Design",
-        "Preventive Maintenance"
-      ]
-    },
-    {
-      "id": "trainee-mechanical-and-manufacturing-engineer",
-      "type": "work",
-      "title": "Trainee Mechanical and Manufacturing Engineer",
-      "company": "Electro Metal Pressings (Pvt) Ltd",
-      "location": "Homagama",
-      "period": "2022 – 2023",
       "description": "Worked on mechanical design modifications, production line improvements, and hands-on manufacturing practices to enhance productivity and quality.",
       "achievements": [
         "Redesigned and optimized a solid salt feeding screw to improve efficiency and reduce wear.",
@@ -40,6 +19,26 @@
         "Mechanical Design",
         "CAD",
         "Manufacturing Process Optimization"
+      ]
+    },
+    {
+      "id": "trainee-mechanical-and-manufacturing-engineer",
+      "type": "work",
+      "title": "Trainee Mechanical and Manufacturing Engineer",
+      "company": "Electro Metal Pressings (Pvt) Ltd",
+      "location": "Homagama",
+      "period": "2022 – 2023",
+      "achievements": [
+        "Supported troubleshooting and preventive maintenance of automation systems across multiple production lines.",
+        "Contributed to process improvements that minimized downtime and increased reliability.",
+        "Collaborated with senior engineers to enhance machine safety and energy efficiency.",
+        "Assisted in designing and fabricating an IP-rated electrical enclosure to ensure safer operations."
+      ],
+      "technologies": [
+        "PLC Programming",
+        "Pneumatics",
+        "Electrical Panel Design",
+        "Preventive Maintenance"
       ]
     }
   ]

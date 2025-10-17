@@ -12,18 +12,7 @@
         "Thermodynamics",
         "Heat Transfer"
       ],
-      "images": [
-        {
-          "url": "/images/solar-cooker/design.jpg",
-          "alt": "CAD model of the portable solar cooker",
-          "caption": "SolidWorks design of the parabolic reflector"
-        },
-        {
-          "url": "/images/solar-cooker/prototype.jpg",
-          "alt": "Fabricated prototype of the solar cooker",
-          "caption": "Completed prototype during performance validation"
-        }
-      ],
+      "images": [],
       "demoUrl": null,
       "githubUrl": null,
       "featured": true,
@@ -51,18 +40,7 @@
         "Automation",
         "Material Handling Design"
       ],
-      "images": [
-        {
-          "url": "/images/waste-compactor/model.jpg",
-          "alt": "3D model of the waste compactor",
-          "caption": "SolidWorks model showing hydraulic press and binding system"
-        },
-        {
-          "url": "/images/waste-compactor/mechanism.jpg",
-          "alt": "Close-up of the automated binding mechanism",
-          "caption": "Detail of the automated stripping and binding mechanism"
-        }
-      ],
+      "images": [],
       "demoUrl": null,
       "githubUrl": null,
       "featured": true,
@@ -88,13 +66,7 @@
         "Mechanical Design",
         "Materials Engineering"
       ],
-      "images": [
-        {
-          "url": "/images/screw-conveyor/design.jpg",
-          "alt": "CAD model of the redesigned screw",
-          "caption": "Modified screw pitch and diameter in SolidWorks"
-        }
-      ],
+      "images": [],
       "demoUrl": null,
       "githubUrl": null,
       "featured": false,
@@ -121,13 +93,7 @@
         "PLC Programming",
         "Quality Assurance"
       ],
-      "images": [
-        {
-          "url": "/images/r-pin-detector/system.jpg",
-          "alt": "Diagram of the sensor integration on the conveyor",
-          "caption": "Sensor placement for real-time monitoring"
-        }
-      ],
+      "images": [],
       "demoUrl": null,
       "githubUrl": null,
       "featured": false,
@@ -156,9 +122,24 @@
       ],
       "images": [
         {
-          "url": "/images/pneumatic-system/layout.jpg",
-          "alt": "CAD layout of the optimized pneumatic lines",
-          "caption": "Optimized line routing and manifold placement"
+          "url": "/project_images/Pneumatic_system_modification/1.png",
+          "alt": "Pneumatic distribution system layout",
+          "caption": "System overview and component layout"
+        },
+        {
+          "url": "/project_images/Pneumatic_system_modification/2.png",
+          "alt": "Pneumatic manifold design",
+          "caption": "Optimized manifold placement"
+        },
+        {
+          "url": "/project_images/Pneumatic_system_modification/3.png",
+          "alt": "Pneumatic line routing",
+          "caption": "Efficient line routing design"
+        },
+        {
+          "url": "/project_images/Pneumatic_system_modification/4.png",
+          "alt": "Pneumatic system installation",
+          "caption": "Completed system installation"
         }
       ],
       "demoUrl": null,
@@ -187,13 +168,7 @@
         "CAD",
         "Industrial Safety"
       ],
-      "images": [
-        {
-          "url": "/images/electrical-panel/design.jpg",
-          "alt": "Design of the IP-rated electrical panel",
-          "caption": "Sealed enclosure design with gaskets"
-        }
-      ],
+      "images": [],
       "demoUrl": null,
       "githubUrl": null,
       "featured": false,
@@ -217,9 +192,19 @@
       "technologies": ["Sensors", "Microcontrollers", "Control Systems"],
       "images": [
         {
-          "url": "/images/staircase-light/system.jpg",
-          "alt": "Diagram of the sensor-controlled light system",
-          "caption": "Modular system design for retrofit applications"
+          "url": "/project_images/Staircase_light_system/1.jpg",
+          "alt": "Automated staircase light system",
+          "caption": "Complete lighting system setup"
+        },
+        {
+          "url": "/project_images/Staircase_light_system/2.jpg",
+          "alt": "Motion sensor integration",
+          "caption": "PIR sensor and control module"
+        },
+        {
+          "url": "/project_images/Staircase_light_system/3.jpg",
+          "alt": "Staircase light system installation",
+          "caption": "System installed on staircase"
         }
       ],
       "demoUrl": null,
@@ -247,13 +232,7 @@
         "Microcontrollers",
         "Control Systems"
       ],
-      "images": [
-        {
-          "url": "/images/traffic-control/prototype.jpg",
-          "alt": "Prototype of the smart traffic control system",
-          "caption": "Hardware prototype with camera and microcontroller"
-        }
-      ],
+      "images": [],
       "demoUrl": null,
       "githubUrl": null,
       "featured": false,
@@ -281,9 +260,24 @@
       ],
       "images": [
         {
-          "url": "/images/casting-machine/design.jpg",
-          "alt": "CAD design of the centrifugal casting machine",
-          "caption": "SolidWorks model of the high-strength rotating drum"
+          "url": "/project_images/Centrifugal_Casting_Machine/1.jpg",
+          "alt": "Centrifugal casting machine design",
+          "caption": "Machine setup and structure"
+        },
+        {
+          "url": "/project_images/Centrifugal_Casting_Machine/2.jpg",
+          "alt": "Centrifugal casting machine components",
+          "caption": "Detailed view of machine components"
+        },
+        {
+          "url": "/project_images/Centrifugal_Casting_Machine/3.jpg",
+          "alt": "Centrifugal casting machine assembly",
+          "caption": "Machine assembly process"
+        },
+        {
+          "url": "/project_images/Centrifugal_Casting_Machine/4.jpg",
+          "alt": "Completed centrifugal casting machine",
+          "caption": "Final assembled machine"
         }
       ],
       "demoUrl": null,
@@ -314,9 +308,24 @@
       ],
       "images": [
         {
-          "url": "/images/coffee-roaster/machine.jpg",
-          "alt": "The automated coffee roasting machine prototype",
-          "caption": "Prototype with rotating drum and temperature control system"
+          "url": "/project_images/Coffee_Roasting_machine/1.jpg",
+          "alt": "Automated coffee roasting machine",
+          "caption": "Complete machine setup"
+        },
+        {
+          "url": "/project_images/Coffee_Roasting_machine/2.jpg",
+          "alt": "Coffee roasting machine control system",
+          "caption": "Control panel and temperature monitoring"
+        },
+        {
+          "url": "/project_images/Coffee_Roasting_machine/3.jpg",
+          "alt": "Coffee roasting drum mechanism",
+          "caption": "Rotating drum for even roasting"
+        },
+        {
+          "url": "/project_images/Coffee_Roasting_machine/4.jpg",
+          "alt": "Coffee roasting machine in operation",
+          "caption": "Machine during roasting process"
         }
       ],
       "demoUrl": null,
@@ -342,9 +351,24 @@
       "technologies": ["SolidWorks Motion", "ANSYS", "Kinematics & Dynamics"],
       "images": [
         {
-          "url": "/images/dragon-motion/simulation.jpg",
-          "alt": "Simulation of dragon body motion",
-          "caption": "ANSYS simulation showing dynamic loads on the structure"
+          "url": "/project_images/Dragon/1.jpg",
+          "alt": "Dragon body motion analysis setup",
+          "caption": "Initial CAD model setup"
+        },
+        {
+          "url": "/project_images/Dragon/2.jpg",
+          "alt": "Dragon body kinematic analysis",
+          "caption": "Motion simulation and joint analysis"
+        },
+        {
+          "url": "/project_images/Dragon/3.jpg",
+          "alt": "Dragon body dynamic simulation",
+          "caption": "Force and stress analysis results"
+        },
+        {
+          "url": "/project_images/Dragon/4.jpg",
+          "alt": "Dragon body motion optimization",
+          "caption": "Optimized motion path visualization"
         }
       ],
       "demoUrl": null,
@@ -374,9 +398,24 @@
       ],
       "images": [
         {
-          "url": "/images/grass-cutter/design.jpg",
-          "alt": "CAD model of the low-noise grass cutter",
-          "caption": "Blade housing with sound-dampening design"
+          "url": "/project_images/Grass_Cutting_Machine/1.jpg",
+          "alt": "Low-noise grass cutting machine design",
+          "caption": "Complete machine overview"
+        },
+        {
+          "url": "/project_images/Grass_Cutting_Machine/2.jpg",
+          "alt": "Grass cutting blade housing",
+          "caption": "Sound-dampening blade housing design"
+        },
+        {
+          "url": "/project_images/Grass_Cutting_Machine/3.jpg",
+          "alt": "Grass cutting machine control system",
+          "caption": "Automated navigation controls"
+        },
+        {
+          "url": "/project_images/Grass_Cutting_Machine/4.jpg",
+          "alt": "Grass cutting machine in operation",
+          "caption": "Machine demonstrating low-noise operation"
         }
       ],
       "demoUrl": null,

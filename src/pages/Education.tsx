@@ -26,9 +26,9 @@ const EducationPage = () => {
     },
     {
       icon: Award,
-      label: "Certifications",
-      value: `${certificationCount}`,
-      description: "Professional certifications achieved",
+      label: "Memberships",
+      value: `1`,
+      description: "IESL student memberahip",
     },
     {
       icon: TrendingUp,
