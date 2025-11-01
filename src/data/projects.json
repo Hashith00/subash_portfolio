@@ -12,7 +12,13 @@
         "Thermodynamics",
         "Heat Transfer"
       ],
-      "images": [],
+      "images": [
+        {
+          "url": "/project_images/Solar_Cooker/Gemini_Generated_Image_3csfth3csfth3csf.png",
+          "alt": "Portable solar cooker design",
+          "caption": "Solar cooker concept and design"
+        }
+      ],
       "demoUrl": null,
       "githubUrl": null,
       "featured": true,
@@ -40,7 +46,28 @@
         "Automation",
         "Material Handling Design"
       ],
-      "images": [],
+      "images": [
+        {
+          "url": "/project_images/Waste_Compactor/Picture1.png",
+          "alt": "Automated waste compactor design",
+          "caption": "Complete machine design and layout"
+        },
+        {
+          "url": "/project_images/Waste_Compactor/Picture2.png",
+          "alt": "Waste compactor hydraulic system",
+          "caption": "Hydraulic compaction mechanism"
+        },
+        {
+          "url": "/project_images/Waste_Compactor/Picture3.png",
+          "alt": "Waste compactor binding system",
+          "caption": "Automated stripping and binding mechanism"
+        },
+        {
+          "url": "/project_images/Waste_Compactor/Screenshot 2025-10-17 181711.png",
+          "alt": "Waste compactor technical specifications",
+          "caption": "Technical details and specifications"
+        }
+      ],
       "demoUrl": null,
       "githubUrl": null,
       "featured": true,
@@ -66,7 +93,23 @@
         "Mechanical Design",
         "Materials Engineering"
       ],
-      "images": [],
+      "images": [
+        {
+          "url": "/project_images/Salt_Screw/Screenshot 2025-10-17 142902.png",
+          "alt": "Salt feeding screw design",
+          "caption": "Original screw conveyor design"
+        },
+        {
+          "url": "/project_images/Salt_Screw/Screenshot 2025-10-17 142913.png",
+          "alt": "Optimized screw design",
+          "caption": "Redesigned screw with improved pitch and diameter"
+        },
+        {
+          "url": "/project_images/Salt_Screw/Screenshot 2025-10-17 142948.png",
+          "alt": "Screw performance analysis",
+          "caption": "Performance comparison and wear analysis"
+        }
+      ],
       "demoUrl": null,
       "githubUrl": null,
       "featured": false,
@@ -93,7 +136,23 @@
         "PLC Programming",
         "Quality Assurance"
       ],
-      "images": [],
+      "images": [
+        {
+          "url": "/project_images/R_Pin/Screenshot 2025-10-17 154205.png",
+          "alt": "R-Pin detector system setup",
+          "caption": "Sensor-based detection system on conveyor line"
+        },
+        {
+          "url": "/project_images/R_Pin/Screenshot 2025-10-17 154234.png",
+          "alt": "R-Pin detection sensors",
+          "caption": "Proximity and optical sensor configuration"
+        },
+        {
+          "url": "/project_images/R_Pin/Screenshot 2025-10-17 154300.png",
+          "alt": "R-Pin detector control panel",
+          "caption": "PLC integration and control interface"
+        }
+      ],
       "demoUrl": null,
       "githubUrl": null,
       "featured": false,
@@ -122,22 +181,22 @@
       ],
       "images": [
         {
-          "url": "/project_images/Pneumatic_system_modification/1.png",
+          "url": "/project_images/Pneumatic_System_Modification/1.png",
           "alt": "Pneumatic distribution system layout",
           "caption": "System overview and component layout"
         },
         {
-          "url": "/project_images/Pneumatic_system_modification/2.png",
+          "url": "/project_images/Pneumatic_System_Modification/2.png",
           "alt": "Pneumatic manifold design",
           "caption": "Optimized manifold placement"
         },
         {
-          "url": "/project_images/Pneumatic_system_modification/3.png",
+          "url": "/project_images/Pneumatic_System_Modification/3.png",
           "alt": "Pneumatic line routing",
           "caption": "Efficient line routing design"
         },
         {
-          "url": "/project_images/Pneumatic_system_modification/4.png",
+          "url": "/project_images/Pneumatic_System_Modification/4.png",
           "alt": "Pneumatic system installation",
           "caption": "Completed system installation"
         }
@@ -168,7 +227,13 @@
         "CAD",
         "Industrial Safety"
       ],
-      "images": [],
+      "images": [
+        {
+          "url": "/project_images/Electrical_Panel/Gemini_Generated_Image_nx23bnx23bnx23bn.png",
+          "alt": "IP-rated electrical panel design",
+          "caption": "Water and dust resistant electrical panel enclosure"
+        }
+      ],
       "demoUrl": null,
       "githubUrl": null,
       "featured": false,
@@ -192,17 +257,17 @@
       "technologies": ["Sensors", "Microcontrollers", "Control Systems"],
       "images": [
         {
-          "url": "/project_images/Staircase_light_system/1.jpg",
+          "url": "/project_images/Staircase_Light_System/1.jpg",
           "alt": "Automated staircase light system",
           "caption": "Complete lighting system setup"
         },
         {
-          "url": "/project_images/Staircase_light_system/2.jpg",
+          "url": "/project_images/Staircase_Light_System/2.jpg",
           "alt": "Motion sensor integration",
           "caption": "PIR sensor and control module"
         },
         {
-          "url": "/project_images/Staircase_light_system/3.jpg",
+          "url": "/project_images/Staircase_Light_System/3.jpg",
           "alt": "Staircase light system installation",
           "caption": "System installed on staircase"
         }
@@ -232,7 +297,13 @@
         "Microcontrollers",
         "Control Systems"
       ],
-      "images": [],
+      "images": [
+        {
+          "url": "/project_images/Traffic_Controller/Gemini_Generated_Image_7oflfw7oflfw7ofl.png",
+          "alt": "Smart traffic control system",
+          "caption": "Vision-based traffic light control prototype"
+        }
+      ],
       "demoUrl": null,
       "githubUrl": null,
       "featured": false,
@@ -308,22 +379,22 @@
       ],
       "images": [
         {
-          "url": "/project_images/Coffee_Roasting_machine/1.jpg",
+          "url": "/project_images/Coffee_Roasting_Machine/1.jpg",
           "alt": "Automated coffee roasting machine",
           "caption": "Complete machine setup"
         },
         {
-          "url": "/project_images/Coffee_Roasting_machine/2.jpg",
+          "url": "/project_images/Coffee_Roasting_Machine/2.jpg",
           "alt": "Coffee roasting machine control system",
           "caption": "Control panel and temperature monitoring"
         },
         {
-          "url": "/project_images/Coffee_Roasting_machine/3.jpg",
+          "url": "/project_images/Coffee_Roasting_Machine/3.jpg",
           "alt": "Coffee roasting drum mechanism",
           "caption": "Rotating drum for even roasting"
         },
         {
-          "url": "/project_images/Coffee_Roasting_machine/4.jpg",
+          "url": "/project_images/Coffee_Roasting_Machine/4.jpg",
           "alt": "Coffee roasting machine in operation",
           "caption": "Machine during roasting process"
         }
