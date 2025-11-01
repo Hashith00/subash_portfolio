@@ -1,10 +1,11 @@
-import { Github, Linkedin, Mail, Heart } from "lucide-react";
+import { Linkedin, Mail, Heart, Phone, MapPin } from "lucide-react";
 import { Link } from "react-router-dom";
-import { personalData } from "@/data";
+import { personalData, contactData } from "@/data";
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
-  const { navigation } = personalData;
+  const { navigation, personalInfo } = personalData;
+  const { contactInfo, socialLinks } = contactData;
 
   return (
     <footer className="border-t border-border py-12 px-6">
@@ -13,11 +14,10 @@ const Footer = () => {
           {/* Brand */}
           <div>
             <h3 className="text-2xl font-bold mb-4">
-              <span className="gradient-text">Portfolio</span>
+              <span className="gradient-text">{personalInfo.name}</span>
             </h3>
             <p className="text-muted-foreground text-sm leading-relaxed">
-              Building the future of web development, one project at a time.
-              Let's create something amazing together.
+              {personalInfo.tagline}
             </p>
           </div>
 
@@ -34,6 +34,12 @@ const Footer = () => {
                   {item.name}
                 </Link>
               ))}
+              <Link
+                to="/certificates"
+                className="block text-muted-foreground hover:text-foreground transition-colors text-sm"
+              >
+                Certificates
+              </Link>
             </nav>
           </div>
 
@@ -41,30 +47,61 @@ const Footer = () => {
           <div>
             <h4 className="font-semibold mb-4">Get In Touch</h4>
             <div className="space-y-2 text-sm text-muted-foreground">
-              <p>hello@example.com</p>
-              <p>+1 (555) 123-4567</p>
-              <p>San Francisco, CA</p>
+              {contactInfo.slice(0, 3).map((info, index) => {
+                const getIcon = () => {
+                  switch (info.icon) {
+                    case "Mail":
+                      return <Mail size={16} className="inline mr-2" />;
+                    case "Phone":
+                      return <Phone size={16} className="inline mr-2" />;
+                    case "MapPin":
+                      return <MapPin size={16} className="inline mr-2" />;
+                    default:
+                      return null;
+                  }
+                };
+                return (
+                  <p key={index}>
+                    {getIcon()}
+                    {info.href !== "#" ? (
+                      <a
+                        href={info.href}
+                        className="hover:text-foreground transition-colors"
+                      >
+                        {info.value}
+                      </a>
+                    ) : (
+                      info.value
+                    )}
+                  </p>
+                );
+              })}
             </div>
 
             <div className="flex gap-4 mt-6">
-              <a
-                href="#"
-                className="text-muted-foreground hover:text-primary transition-colors"
-              >
-                <Github size={20} />
-              </a>
-              <a
-                href="#"
-                className="text-muted-foreground hover:text-primary transition-colors"
-              >
-                <Linkedin size={20} />
-              </a>
-              <a
-                href="#"
-                className="text-muted-foreground hover:text-primary transition-colors"
-              >
-                <Mail size={20} />
-              </a>
+              {socialLinks.map((social) => {
+                const getIcon = () => {
+                  switch (social.icon) {
+                    case "Linkedin":
+                      return <Linkedin size={20} />;
+                    case "Mail":
+                      return <Mail size={20} />;
+                    default:
+                      return null;
+                  }
+                };
+                return (
+                  <a
+                    key={social.label}
+                    href={social.href}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className={`text-muted-foreground ${social.color} transition-colors`}
+                  >
+                    {getIcon()}
+                  </a>
+                );
+              })}
             </div>
           </div>
         </div>
@@ -72,7 +109,7 @@ const Footer = () => {
         {/* Bottom Bar */}
         <div className="border-t border-border pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-sm text-muted-foreground">
-            © {currentYear} Portfolio. All rights reserved.
+            © {currentYear} {personalInfo.name}. All rights reserved.
           </p>
           <p className="text-sm text-muted-foreground flex items-center gap-1">
             Built with <Heart size={16} className="text-red-500" /> and modern
